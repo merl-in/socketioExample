@@ -1,0 +1,19 @@
+{
+  "name": "mulitplayergame",
+  "version": "1.0.0",
+  "description": "trying to make a multiplayer game",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "devStart": "nodemon index.js"
+  },
+  "author": "Merlin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
